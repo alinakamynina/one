@@ -51,26 +51,3 @@ $ git commit --amend
 
 ## Просмотр истории коммитов
 После того, как вы создали несколько коммитов или клонировали репозиторий с существующей историей коммитов, вы, вероятно, захотите оглянуться назад, чтобы увидеть, что произошло. Самый простой и мощный инструмент для этого — git logкоманда.
-
-В этих примерах используется очень простой проект под названием «simplegit». Чтобы получить проект, запустите:
-
-$ git clone https://github.com/schacon/simplegit-progit
-
-Когда вы запустите git logэтот проект, вы должны получить вывод, который выглядит примерно так:
-
-$ git log
-commit ca82a6dff817ec66f44342007202690a93763949
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Mon Mar 17 21:52:11 2008 -0700
-
-    Change version number
-
-commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Sat Mar 15 16:40:33 2008 -0700
-
-    Remove unnecessary test
-
-commit a11bef06a3f659402fe7563abf99ad00de2209e6
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Sat Mar 15 10:31:28 2008 -0700
