@@ -57,7 +57,13 @@ $ git commit --amend
 $ git clone https://github.com/schacon/simplegit-progit
 
 Когда вы запустите git logэтот проект, вы должны получить вывод, который выглядит примерно так:
+то делать, если вы понимаете, что не хотите сохранять изменения в CONTRIBUTING.mdфайле? Как вы можете легко не модифицировать его — вернуть его к тому, как он выглядел, когда вы в последний раз делали коммит (или первоначально клонировали, или каким-то образом вы поместили его в свой рабочий каталог)? К счастью, git statusтакже рассказывает вам, как это сделать. В выходных данных последнего примера неустановленная область выглядит так:
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   CONTRIBUTING.mdS
 $ git log
 commit ca82a6dff817ec66f44342007202690a93763949
 Author: Scott Chacon <schacon@gee-mail.com>
